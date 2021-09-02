@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+    width: 30%;
+    margin: auto;
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+.illustration {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.text {
+    margin-top: 2.4rem;
+}
+
+.text p {
+    width: 80%;
+    margin: 1.2rem auto;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.plans {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.cont-1 {
+    display: flex;
+    align-items: center;     
+}
+
+.music-icon-cont {
+    margin-right: 1rem;
+}
+
+.music-text-cont {
+    text-align: left;
+}
+
+.music-text-cont h4 {
+    margin-bottom: 0.4rem;
+}
+
+.cont-2 a {
+    font-weight: 700;
+    font-size: 14px;
+    color: hsl(245, 75%, 52%);
+}
+
+.cont-2 a:hover {
+    color: hsl(225, 62%, 62%);
+    text-decoration: none;
+}
+
+.payment-btn {
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    padding: 1rem;
+    color: #fff;
+    width: 80%;
+    margin: 2rem auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px 6px hsla(228, 61%, 71%, 0.425);
+    font-weight: 600;
+    
+}
+
+.payment-btn:hover {
+    background-color: hsl(225, 62%, 62%);
+}
+
+.cancel {
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.cancel:hover {
+    opacity: 1;
+    font-weight: 700;
+}
+
+/* mobile scetion */
+
+@media (max-width: 575px) {
+    .container {
+        width: 85%;
+        margin: auto;
+        background-color: #fff;
+        text-align: center;
+        padding-bottom: 2rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        border-radius: 16px;
+    }
+
+    .illustration {
+        width: 100%;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
